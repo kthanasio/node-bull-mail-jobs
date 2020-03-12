@@ -2,6 +2,11 @@
 
 ``docker run --name redis -p 6379:6379 -d -t redis:alpine``
 
+# SMTP
+
+- http://mailtrap.io/
+- Copy .env.example to .env
+- Configure the smtp variables on .env
 
 # API + Job Consumer
 
