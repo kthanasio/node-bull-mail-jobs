@@ -4,7 +4,7 @@ export default {
     key: "RegistrationMail",
     async handle({ data }) {
         const { user } = data;
-        console.log('JOB: RegistrationMail');
+        // console.log('JOB: RegistrationMail');
         await Mail.sendMail({
             from: "Serviço de Fila <Kleber@gmail.com>",
             to: `${user.name} <${user.email}>`,
