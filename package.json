@@ -15,7 +15,7 @@
     "@types/bull-board": "^2.0.0",
     "dot-prop": ">=5.1.1",
     "express": "^4.17.3",
-    "nodemon": "^2.0.2",
+    "nodemon": "^3.0.1",
     "sucrase": "^3.12.1"
   },
   "dependencies": {
